@@ -1,0 +1,171 @@
+.px-6 {
+  padding-right: 6rem !important;
+  padding-left: 6rem !important;
+}
+.ps-6 {
+  padding-left: 6rem;
+}
+.container-bg {
+  height: 100vh;
+  background-size: 100% auto;
+  width: auto;
+  background-position: top;
+}
+
+.main_img {
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.back {
+  background-color: #f6fcff;
+  height: 100vh;
+  width: auto;
+}
+.checks {
+  height: 70%;
+  width: auto;
+}
+
+.phone-img {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+.rivershare {
+  position: absolute;
+  top: 35%;
+  left: 35%;
+  height: 30%;
+  width: auto;
+}
+.tokenomics {
+  position: absolute;
+  bottom: 52%;
+  left: 72%;
+}
+.tokenomics h5 {
+  font-size: 30px;
+}
+
+.tokonomics-content {
+  position: absolute;
+  align-items: center;
+  border: 1px solid #0086be;
+  border-radius: 15px;
+  background-color: white;
+  top: 48%;
+  left: 62%;
+  height: 110px;
+  width: 32%;
+  justify-content: space-around;
+  padding: 12px 11px;
+}
+.vr {
+  color: #0086be;
+  width: 2px !important;
+}
+.driveshare-color {
+  font-weight: 700;
+  color: #0086be;
+}
+.tokonomi_text p {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+}
+.cloud-img {
+  position: absolute;
+  top: 25%;
+  left: 80%;
+}
+.ca-text {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  font-size: 25px;
+}
+.driveshare-footer {
+  background-color: #c1e6f3;
+  position: absolute;
+  justify-content: start;
+  width: 75%;
+  bottom: 0;
+  padding: 11px 190px;
+}
+.driveshare-footer .driveshare-icon {
+  display: flex;
+  align-items: center;
+}
+.driveshare-icon p {
+  margin: -5px 0 0 0;
+}
+.driveshare-icon img {
+  width: 45px;
+}
+.car-footer {
+  position: absolute;
+  bottom: 0;
+  right: -125px;
+}
+.car-size {
+  height: 160px;
+}
+.modal-header {
+  border-bottom: 0px !important;
+}
+
+.modal-lg {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cursor {
+  cursor: pointer !important;
+}
+@media only screen and (min-width: 1440px) {
+  .tokonomics-content {
+    position: absolute;
+    align-items: center;
+    border: 1px solid #0086be;
+    top: 48%;
+    left: 62%;
+    height: 130px;
+    width: 32%;
+    padding: 0 45px;
+  }
+  .rivershare {
+    width: auto;
+    height: 30%;
+  }
+  .tokonomics-text {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .download {
+    display: flex;
+    justify-content: start;
+    margin-right: 10px;
+  }
+  .checks {
+    height: 50%;
+    width: auto;
+  }
+  .tokenomics h5 {
+    font-size: 30px;
+  }
+  .tokenomics {
+    position: absolute;
+    bottom: 52%;
+    left: 72.5%;
+  }
+  .driveshare-footer {
+    background-color: #c1e6f3;
+    position: absolute;
+    justify-content: center;
+    width: 75%;
+    bottom: 0;
+    padding: 11px 190px;
+  }
+}

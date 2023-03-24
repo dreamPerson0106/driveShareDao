@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76487fa2.css",
+    "main.js": "/static/js/main.3b219101.js",
+    "static/js/787.b8ef308e.chunk.js": "/static/js/787.b8ef308e.chunk.js",
+    "static/media/driveshare_phone.png": "/static/media/driveshare_phone.ba8c173fea1f213fddb5.png",
+    "static/media/driveshare_main.png": "/static/media/driveshare_main.ea68d56f61c00e64ceed.png",
+    "static/media/Logo.svg": "/static/media/Logo.8e33ba911c9ff7b3f2f1c281f06abcac.svg",
+    "static/media/car.png": "/static/media/car.026c1e59f4fa9f001811.png",
+    "static/media/rivershare.png": "/static/media/rivershare.3ee0b7988c1381328bf5.png",
+    "static/media/twitter.svg": "/static/media/twitter.1aa6ead0834ba13f60d15147daaefad6.svg",
+    "static/media/telegram.svg": "/static/media/telegram.7f978baeb29e7efb89357aa0656130c7.svg",
+    "static/media/playstore.png": "/static/media/playstore.43a2933aedb2317f0167.png",
+    "static/media/appstore.png": "/static/media/appstore.f7cc9645d36f394fa007.png",
+    "static/media/medium.svg": "/static/media/medium.9a504a2456426ca76975cdf9550fce59.svg",
+    "index.html": "/index.html",
+    "main.76487fa2.css.map": "/static/css/main.76487fa2.css.map",
+    "main.3b219101.js.map": "/static/js/main.3b219101.js.map",
+    "787.b8ef308e.chunk.js.map": "/static/js/787.b8ef308e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76487fa2.css",
+    "static/js/main.3b219101.js"
+  ]
+}

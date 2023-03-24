@@ -1,0 +1,222 @@
+:root{
+  --primary: #0086BE;
+  --secondary: #039BE5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  overflow: hidden;
+}
+
+.container-bg{
+  background: url('./assets/images/driveshare_main.png');
+  /* width: 100%;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat; */
+
+  height: 100vh;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+} 
+
+.container-logo{
+  padding: 30px;
+}
+
+.container-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: absolute;
+  left: 44%;
+}
+
+.container-heading{
+  text-transform: uppercase;
+  /* font-size: 3rem; */
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container-heading span{
+  color: var(--primary);
+}
+
+.actions-container{
+  display: flex;
+  justify-content: center;
+}
+
+.actions-appstore{
+  margin-right: 3em;
+}
+
+.tokenomic-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.tokenomic-title{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  color: var(--secondary);
+}
+
+.tokenomic-section{
+  border: 1px solid var(--secondary);
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  /* width: 20%; */
+  width: 70%;
+}
+
+.tokenomic-pipe{
+  background: var(--secondary);
+  width: 2px;
+}
+
+.tokenomic-body{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.tokenomic-subtitle2{
+  color: var(--secondary);
+  font-weight: 700;
+}
+
+.ca-id{
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.ca-id span{
+  font-weight: 500;
+}
+
+.social-media-footer{
+  /* display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  justify-content: center; */
+
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  left: 400px;
+  right: 0;
+}
+
+.social-media{
+  display: flex;
+  /* width: 27%; */
+  justify-content: space-around;
+}
+
+.twitter-container, .telegram-container, .medium-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 15px; */
+  margin-left: 100px;
+}
+
+.twitter-name, .telegram-name, .medium-name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: -12px;
+}
+
+.twitter-img img, .telegram-img img, .medium-img img{
+  width: 80%;
+}
+
+.car-container{
+  position: absolute;
+  bottom: 0px;
+  right: -150px;
+}
+
+
+@media only screen and (max-width: 756px) {
+
+  body{
+    overflow: auto;
+  }
+
+  .container-logo{
+    padding: 0;
+    padding-left: 20px;
+    padding-top: 8px;
+  }
+
+  .container-logo img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .container-bg{
+    background: none;
+  }
+
+  .container-body{
+    position: static;
+  }
+
+  .container-heading{
+    font-size: 2.5rem;
+  }
+
+  .actions-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .actions-appstore{
+    margin-bottom: 10px;
+    margin-right: 0;
+  }
+
+  .social-media-footer{
+    position: absolute;
+    display: block;
+    left: 0;
+  }
+  
+  .car-container{
+    display: none;
+  }
+
+  .twitter-container, .telegram-container, .medium-container{
+    margin-left: 0;
+  }
+
+  .ca-id{
+    margin-bottom: 30px;
+  }
+
+  .tokenomic-container{
+    margin: 2rem 0;
+  }
+}
