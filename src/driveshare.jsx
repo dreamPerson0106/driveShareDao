@@ -129,7 +129,10 @@ const Driveshare = () => {
       <div className="row">
         <div className="col-md-4">
           <div className="ca-text">
-            <p> CA: &nbsp; &nbsp; &nbsp;Coming Soon</p>
+            <p>
+              {" "}
+              CA: &nbsp; &nbsp; &nbsp;0x7E970D7585b44Ce68E95B63CF692Dc56B50E791f
+            </p>
           </div>
         </div>
       </div>
@@ -137,28 +140,35 @@ const Driveshare = () => {
         <div className="col-md-9 offset-md-3">
           <div className="driveshare-footer d-flex">
             <div className="driveshare-icon ms-5 ">
-              <img src={twitter} alt="tweet" />
               <a
-                href="https://twitter.com/driversharedao"
+                href="https://twitter.com/driversharedao?s=09"
                 target={"_blank"}
                 rel="noreferrer"
                 className="text-decoration-none text-dark"
               >
+                <img src={twitter} alt="tweet" />
                 <p>Twitter</p>
               </a>
             </div>
             <div className="driveshare-icon ms-5">
-              <img src={telegram} alt="tweet" />
-              <p>Telegram</p>
+              <a
+                href="https://t.me/drivesharedao"
+                target={"_blank"}
+                rel="noreferrer"
+                className="text-decoration-none text-dark"
+              >
+                <img src={telegram} alt="tweet" />
+                <p>Telegram</p>
+              </a>
             </div>
             <div className="driveshare-icon ms-5">
-              <img src={medium} alt="tweet" />
               <a
                 href="https://medium.com/@drivesharedao"
                 target={"_blank"}
                 rel="noreferrer"
                 className="text-decoration-none text-dark"
               >
+                <img src={medium} alt="tweet" />
                 <p>Medium</p>
               </a>
             </div>
